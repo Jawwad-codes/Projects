@@ -1,0 +1,755 @@
+/* color variable */
+
+:root{
+  --red:#f42625;
+  --white:#ffffff;
+  --black:#000000;
+}
+.body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+.image-of-Main-div{
+  justify-self: center;
+  max-width: 100%;
+}
+
+/* navbar styling */
+#nav-items{
+  gap: 10px;
+  margin-right: 50px;
+  *{
+    color: white;
+  }
+}
+#nav{
+  padding: 0px 10px;
+}
+
+#main-logo{
+  margin-left: 100px;
+  width: 165px;
+  padding: 15px 15px;
+}
+.nav-links{
+  margin-right: 50px;;
+  gap:2px;
+  text-decoration: none;
+}
+
+#Franchise{
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+#Order-Online{
+  background-color: var(--red);
+  border: 0px;
+  padding: 11px 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  display: flex;
+}
+#red{
+  color: var(--red);
+}
+#children-images{
+  gap: 30px;
+}
+#btn-icon i {
+  background-color: transparent;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 12px;
+  margin-left: 10px;
+   background-color: #fff;
+  color: #ED1C24;
+  cursor: pointer;
+  display: flex;
+}
+  
+.logo-text-hold{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.welcomeparent{
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  display:flexbox;
+}
+.Threecard{
+  display: inline-flex;
+  padding-bottom:100px ;
+}
+.card{
+  background-color: #fff;
+  padding: 15px 10px;
+  border-radius: 4px ;
+}
+.cardcontainer{
+  margin:20px 5px ;
+}
+.cardbutton>button{
+  background-color: transparent;
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 16px 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  color: white;
+}
+.cardbutton>button.reserve{
+ padding: 16px 35px;
+ cursor: pointer;
+}
+.saltenparent {
+  background-color: #0F0F0F;
+  padding: 70px;
+  position: relative;
+  width: 1349px 1317.59px;
+}
+
+.saltenparent h3 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'butler';
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+.saltstyle>h3>span {
+  font-family: 'futurak';
+  font-size: 52px;
+  letter-spacing: 2px;
+
+}
+
+
+.saltstyle>p {
+  color: #AFAFAF;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.saltenparent>img{
+
+  margin-left: 220px ;
+  position:absolute;
+}
+
+/* <<< Heading images >>> */
+.headingbox {
+  background-color: #0F0F0F;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 90px;
+  color: #fff;
+  width: 100%;
+  justify-self: center;
+  display: flex;
+
+  
+
+}
+.Redcolor {
+  color: #ED1C24;
+  font-family: 'appercu';
+  letter-spacing: 8px;
+  font-weight: lighter;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.getdirection 
+{
+  border: none;
+  padding: 10px 30px;
+  border-radius: 35px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid#4D4D4D !important;
+  cursor: pointer;
+  text-align: center;
+  display:flexbox;
+  justify-content: center;
+} 
+
+.getdirection i 
+{
+  border: none;
+  padding: 5px 6px;
+  border-radius:12px;
+   background-color: #fff;
+  color: #ED1C24;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-top: -3px;
+  margin-bottom: -2px;
+}
+.headingbox span {
+  font-family: 'futurak';
+  letter-spacing: 2px;
+  margin: 0px;
+  font-size: 29px;
+  background-color: #0F0F0F;
+}
+.Restaurant
+{
+  font-family: 'appercu';
+  font-weight: lighter;
+  font-size: 29px;
+}
+address
+{
+  color: #AFAFAF;
+  font-size: 16px; 
+  font-style: normal;  
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+address i
+{
+letter-spacing: 3px;
+}
+.image01 > img 
+{
+  width: 90%;
+  padding-right: 100px;
+  margin-top: 15px;
+  border-radius:5px;
+  padding: 20px 25px;
+  justify-self: left;
+  
+}
+
+.father{
+  box-sizing:border-box;
+  display: flex;
+  
+}
+
+.image02 > img 
+{
+  width: 90%;
+  padding-left: 100px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 20px 25px;
+  
+  
+}
+.image03>img{
+  width: 90%;
+  padding-left: 100px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 20px 25px;
+  
+}
+
+
+/* salt and paper restuarent franchise 2nd */
+.franchise-cards{
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  justify-content: center; 
+  flex-direction: row;
+  display: inline-flex;
+}
+.three-more-cards{
+  flex-direction: row;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  justify-content: center; 
+  flex-direction: row;
+  margin-top: 5px;
+ display: flex;
+}
+.three-further-cards{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  justify-content: center; 
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.franchise-second{
+
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 100px;
+  position: relative;
+}
+.franchise-shade-image{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Package-mall>h3{
+  font-size: 12px;
+  color: var(--red);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.Package-mall>h5{
+  font-size: 12px;
+  color: var(--red);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+
+.Express{
+  text-shadow:1px ;
+  font:bold;
+  border: 1px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.Express> h3 {
+  text-shadow:1px ;
+  font:bold;
+  border: 1px;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+.getdirection2 i{
+  transform: rotate(-35deg);
+  border: none;
+  padding: 5px 4px;
+  border-radius:12px;
+   background-color: #fff;
+  color: #ED1C24;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+.getdirection2 
+{
+  border: none;
+  padding: 10px 30px;
+  border-radius: 35px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid#4D4D4D !important;
+  cursor: pointer;
+  text-align: center;
+  display:inline-flexbox;
+  justify-content: center;
+}
+/* village franchise main headings and content*/
+.village-franchise{
+  background-color: #0F0F0F;
+  display:block;
+  box-sizing: border-box;
+  width:100%;
+}
+.Franchise-village{
+ max-width: 100%;
+}
+
+.addres-phone-no-village{
+  font-size: 16px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.addres-phone-no-village button{
+  margin-left: 1px;
+  margin-top: 20px;
+}
+.GUJRAT>h3{
+  font-size: 14px;
+  color: var(--red);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  margin-left: 25px;
+  float: left;  
+}
+.fa-solid fa-phone{
+  float: left;
+}
+.getdirection3 i{
+  border: none;
+  padding: 10px 10px;
+  border-radius:32px;
+  background-color:#28A745;
+  color:#28A745;
+  background-color: white;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+.getdirection3 
+{
+  
+  border: none;
+  padding: 10px 30px;
+  border-radius: 35px;
+  background-color:#28A745;
+  color: #fff;
+  border: 1px solid#4D4D4D !important;
+  cursor: pointer;
+  text-align: center;
+  display:inline-flexbox;
+  justify-content: center;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  
+  
+}
+.Express-franchises>small{
+  font-size: 30px;
+
+}
+.Express2{
+  float: left;
+  margin-left: 25px;
+  margin-right: 400px;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: 200px;
+}
+.main-heading-of-locations-content{
+  font-size: x-large;
+}
+.main-heading-of-locations-content >  h1> small{
+  font-size:xx-large;
+}
+.card-of-location{
+  background-color: white;
+  color: #000000;
+  padding: 10px 25px;
+  flex-direction: row;
+  border: 1px solid white;
+}
+
+.location-names{
+  text-decoration:dotted;
+  font-style:inherit;
+  font-size: large;
+  display: inline-flex;
+}
+.Social-images{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.card1{
+  border-radius: 4px ;
+  flex-direction: row;
+  /* margin-bottom: -80px; */
+}
+.salt-pepper-fotter{
+  background-color: #0F0F0F;
+  max-width: 100%;
+}
+
+
+footer>img{
+  margin:15px;
+  position: absolute;
+}
+.image-logo{
+  position: absolute;
+  
+}
+.main-area-of-About-Us{
+  background-color: black;
+  *{
+    color: #6e6c6c;
+  }
+}
+
+.About-us-Introduction{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.About-us-Introduction>h1{
+  color: white;
+}
+.section-two>h3{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15px
+}
+
+.heading-box-of-About-us span{
+  margin-top: 30px;
+  margin-right: 30%;
+}
+.Patrent-Details{
+  margin-left: -15;
+  margin-right: -15;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  display: flex;
+  padding-top: -30px;
+}
+.Three{
+  box-sizing: border-box;
+  width: 40%;
+  
+}
+
+.content-and-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+}
+
+.content-container1{
+  flex: 2;
+  margin-right: -3%; 
+  margin-top: 20px;
+  gap:10%;
+  margin-left: 9%;
+}
+.content-container2{
+  flex: 2; 
+  margin-top: 20px;
+  gap:10%;
+  margin-right: 5%;
+}
+.image-container img {
+    max-width: 110%;
+    height: auto;
+    max-height: 350px;
+    margin-top: 25px;
+    border-radius: 6px; /* Adjust this value for maximum height */
+  }  
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.image-and-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+
+.section-two-2>h3{
+  text-align: center;
+  margin-left: 9%;
+  margin-right: 2px;
+  flex-wrap: wrap;
+  display: flex;
+}
+/* General styles for all screens */
+.main-heading,
+.village-heading,
+.left-div,
+.right-div {
+  box-sizing: border-box;
+}
+
+.left-div img {
+  width: 550px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  flex-wrap: wrap;
+}
+
+/* Adjust layout for larger screens */
+.row-container {
+  gap: 20px;
+}
+
+.left-div {
+  order: 1;
+  margin-top: 30px;
+}
+
+.right-div {
+  order: 2;
+  margin-top: 30px;
+  text-align: left;
+}
+.address-phone>address{
+  margin-right: 20px;
+  display: inline-block;
+}
+.address i{
+  margin-top: 10px;
+
+}
+
+footer{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.08);
+  background-image: url("image_13.webp");
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  overflow: hidden;
+
+ 
+
+}
+.footers{
+  /* width: 100%; */
+  gap: 40px;
+  margin-left: 0px;
+  
+}
+.follow-
+.details{
+  max-width: 100px;
+ 
+}
+
+#foot-logo{
+  width: 170px;
+  height: 80px;
+  margin-left: 70px;
+}
+.foot-link{
+
+}
+.follow-links{
+gap: 10px;
+}
+.foot-link{
+  margin-right: 40px;
+}
+.follow-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  font-size: 12px;
+  
+  
+
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: var(--red);
+  color: var(--white);
+}
+hr{
+  border: 1px solid rgb(44, 44, 44);
+  width: 100%;
+  height: 0.3px;
+  font-size: 0.3px;
+}
+.last{
+  width: 100%;
+  padding: 0px 40px;
+  
+  
+}
+.lasts{
+  max-width: 600px;
+  
+  
+  
+  
+}
+.span-h{
+  width: 200px;
+}
+.details>p{
+  padding-right: 90px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+.site-links{
+  
+  text-decoration: none;
+}
+.shade-image-2{
+  background-image: url("image_13.webp");
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 820px;
+  margin-left:872px;
+  
+}
+/* Publication page code */
+.publication-main-images{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10% 10%  ;
+
+}
+
+.hover-image:hover{
+  transition: ease-out;
+  transition-duration: 0.6s;
+  width: 650px;
+ 
+  
+  
+
+  
+}
+.main-content-of-publication>p{
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
